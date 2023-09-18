@@ -48,7 +48,7 @@ class Rectangle:
 rect = Rectangle(5, 4)
 print("Area:", rect.calculate_area())
 
-
+```
 
 **Methods:**
 1. **Question 1:** Write a Python class called `Calculator`. Inside the class, create methods for addition, subtraction, multiplication, and division. Create an instance of the class and use its methods to perform basic arithmetic operations.
@@ -93,7 +93,7 @@ class Student:
 
 student1 = Student("Alice", 20)
 student1.display_info()
-
+```
 
 
 **Inheritance:**
@@ -101,8 +101,7 @@ student1.display_info()
 
 2. **Question 2:** Define a base class called `Shape` with a method `calculate_area`. Create a derived class `Circle` that inherits from `Shape` and has a method `calculate_area` to calculate the area of a circle. Create an instance of `Circle` and call its `calculate_area` method.
 
-
-
+```python
 **Inheritance:**
 1. **Question 1:**
 ```python
@@ -191,7 +190,7 @@ print("Area of Rectangle:", rect.area())
 print("Area of Circle:", circle.area())
 
 
-
+```
 **Encapsulation:**
 1. **Question 1:** Create a Python class called `Person` with private attributes `__name` and `__age`. Provide methods to set and get the values of these attributes. Create an instance of `Person`, set its name and age, and then retrieve and print the values.
 
@@ -200,7 +199,7 @@ print("Area of Circle:", circle.area())
 
 
 
-
+```python
 **Encapsulation:**
 1. **Question 1:**
 ```python
