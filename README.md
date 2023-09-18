@@ -55,27 +55,6 @@ print("Area:", rect.calculate_area())
 
 2. **Question 2:** Define a class `Student` with attributes `name` and `age`. Create a method `display_info` that prints the name and age of the student. Create an instance of `Student` and call the `display_info` method to display the student's information.
 
-**Inheritance:**
-1. **Question 1:** Create a base class called `Vehicle` with attributes `make` and `model`. Then, create a derived class called `Car` that inherits from `Vehicle` and has an additional attribute `fuel_type`. Create an instance of `Car` and print out its make, model, and fuel type.
-
-2. **Question 2:** Define a base class called `Shape` with a method `calculate_area`. Create a derived class `Circle` that inherits from `Shape` and has a method `calculate_area` to calculate the area of a circle. Create an instance of `Circle` and call its `calculate_area` method.
-
-**Polymorphism:**
-1. **Question 1:** Create a base class called `Animal` with a method `speak`. Then, create two derived classes, `Dog` and `Cat`, both inheriting from `Animal`. Override the `speak` method in each derived class to make the dog bark and the cat meow. Create instances of both classes and call their `speak` methods.
-
-2. **Question 2:** Define a base class called `Shape` with a method `area`. Create two derived classes, `Rectangle` and `Circle`, both inheriting from `Shape`. Implement the `area` method differently for each shape to calculate the area. Create instances of both classes and call their `area` methods.
-
-**Encapsulation:**
-1. **Question 1:** Create a Python class called `Person` with private attributes `__name` and `__age`. Provide methods to set and get the values of these attributes. Create an instance of `Person`, set its name and age, and then retrieve and print the values.
-
-2. **Question 2:** Define a class called `BankAccount` with private attributes `__balance` and `__account_number`. Implement methods to deposit and withdraw money, while ensuring that the balance cannot go below zero. Create an instance of `BankAccount`, perform some deposits and withdrawals, and print the final balance.
-
-
-
-Sure, here are the answers to the programming questions along with the questions for reference:
-
-
-
 **Methods:**
 1. **Question 1:**
 ```python
@@ -114,7 +93,15 @@ class Student:
 
 student1 = Student("Alice", 20)
 student1.display_info()
-```
+
+
+
+**Inheritance:**
+1. **Question 1:** Create a base class called `Vehicle` with attributes `make` and `model`. Then, create a derived class called `Car` that inherits from `Vehicle` and has an additional attribute `fuel_type`. Create an instance of `Car` and print out its make, model, and fuel type.
+
+2. **Question 2:** Define a base class called `Shape` with a method `calculate_area`. Create a derived class `Circle` that inherits from `Shape` and has a method `calculate_area` to calculate the area of a circle. Create an instance of `Circle` and call its `calculate_area` method.
+
+
 
 **Inheritance:**
 1. **Question 1:**
@@ -149,6 +136,12 @@ class Circle(Shape):
 circle1 = Circle(5)
 print("Area of Circle:", circle1.calculate_area())
 ```
+
+**Polymorphism:**
+1. **Question 1:** Create a base class called `Animal` with a method `speak`. Then, create two derived classes, `Dog` and `Cat`, both inheriting from `Animal`. Override the `speak` method in each derived class to make the dog bark and the cat meow. Create instances of both classes and call their `speak` methods.
+
+2. **Question 2:** Define a base class called `Shape` with a method `area`. Create two derived classes, `Rectangle` and `Circle`, both inheriting from `Shape`. Implement the `area` method differently for each shape to calculate the area. Create instances of both classes and call their `area` methods.
+
 
 **Polymorphism:**
 1. **Question 1:**
@@ -196,7 +189,17 @@ rect = Rectangle(4, 5)
 circle = Circle(3)
 print("Area of Rectangle:", rect.area())
 print("Area of Circle:", circle.area())
-```
+
+
+
+**Encapsulation:**
+1. **Question 1:** Create a Python class called `Person` with private attributes `__name` and `__age`. Provide methods to set and get the values of these attributes. Create an instance of `Person`, set its name and age, and then retrieve and print the values.
+
+2. **Question 2:** Define a class called `BankAccount` with private attributes `__balance` and `__account_number`. Implement methods to deposit and withdraw money, while ensuring that the balance cannot go below zero. Create an instance of `BankAccount`, perform some deposits and withdrawals, and print the final balance.
+
+
+
+
 
 **Encapsulation:**
 1. **Question 1:**
